@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-10-25",
+  "source_counts": {
+    "frontend": {
+      "files": 38,
+      "physical_lines": 6981
+    },
+    "backend": {
+      "files": 23,
+      "physical_lines": 1637
+    },
+    "qwen": {
+      "files": 2,
+      "physical_lines": 116
+    }
+  },
+  "python_ast_parse": {
+    "backend_files": 23,
+    "qwen_files": 2,
+    "result": "passed",
+    "meaning": "语法解析，不等于安装、导入或运行成功"
+  },
+  "frontend_typecheck": {
+    "command": "node node_modules/typescript/bin/tsc --project tsconfig.json --noEmit --incremental false",
+    "exit_code": 1,
+    "error": "src/pages/Intake.tsx(104,9): error TS2322: Type IntakeStation | null is not assignable to type IntakeStation | undefined.",
+    "result": "failed",
+    "source_modified": false
+  },
+  "existing_revision_09_preview_pages": 11,
+  "new_runtime_tests": "未启动前后端、Qwen、相机或机械臂；未执行模型下载或安装脚本",
+  "source_baseline": "以文件校验清单中的SHA-256为准",
+  "final_file_verification": {
+    "checked": 178,
+    "matching": 178,
+    "missing": 0,
+    "changed": 0,
+    "include_optional": true,
+    "exit_code": 0
+  },
+  "handoff_document_validation": {
+    "sections": 13,
+    "lines": 618,
+    "characters": 23969,
+    "explicit_portable_paths_checked": 38,
+    "missing_paths": 0,
+    "fenced_code_blocks_balanced": true,
+    "unicode_replacement_characters": 0
+  },
+  "delivery_sha256": {
+    "软著申请迁移交接文档.md": "67bfe0065c9c3ac89de91e0110ac60d17f4300b0905a4e54d5cb660927bfff1e",
+    "文件校验清单.json": "85a48039c03f0b41c0f3faf18687790150a52d06315c936d3908143b4ec26636",
+    "核验迁移文件.py": "fb18b809f91b23ef3ee347e9a701201f5e59d2e9762d115ab86b1794fa610247"
+  }
+}

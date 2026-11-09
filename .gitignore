@@ -1,0 +1,28 @@
+# dependencies / build
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/*.tsbuildinfo
+
+# env / secrets
+.env
+.env.*
+!.env.example
+**/*.pem
+**/secrets.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+~$*
+
+# logs / temp
+*.log
+*.tmp
+_gh_auth_*.txt

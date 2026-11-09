@@ -1,0 +1,1341 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "original_project_root": "D:\\论文",
+  "path_base": "论文根目录，所有 path 都相对此目录",
+  "source_counts": {
+    "frontend": {
+      "files": 38,
+      "physical_lines": 6981
+    },
+    "backend": {
+      "files": 23,
+      "physical_lines": 1637
+    },
+    "qwen": {
+      "files": 2,
+      "physical_lines": 116
+    }
+  },
+  "exclusions": [
+    "node_modules",
+    "dist",
+    "Python虚拟环境及缓存",
+    "Qwen权重和Linux服务环境",
+    "公开图像数据集主体",
+    "pitch路演材料",
+    "软件包安装缓存"
+  ],
+  "files": [
+    {
+      "path": "claude 导出文件/decoded/065_预制木结构缺陷检测与钉合位置优化算法.md",
+      "category": "design_history",
+      "required": false,
+      "bytes": 375383,
+      "sha256": "a8e5d9062d330236fadaea104301f3dc753e58cb954f5bf1db23b3219297ac57"
+    },
+    {
+      "path": "xylab-nailing-system/README.md",
+      "category": "old_path_pointer",
+      "required": false,
+      "bytes": 368,
+      "sha256": "6e5a056fb0971ac5f8215edaa54f54264b10a8cc19996a3cb11508f152816dd8"
+    },
+    {
+      "path": "机械臂大论文/src/README.md",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 1713,
+      "sha256": "fb09d52ef352ed3e604b898ac5671775d1f55a9770bbb49edabcdf0015953dd6"
+    },
+    {
+      "path": "机械臂大论文/src/ai/ai-qwen-download.sh",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 613,
+      "sha256": "77cdacc37b66ba4612cccc89feac642ce3cdee83f825f04e7686ece9d4eef5ea"
+    },
+    {
+      "path": "机械臂大论文/src/ai/ai-qwen-env.sh",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 581,
+      "sha256": "c6cab0e16c40dee75369df656495925a4fd783a5a2814ec95d52428eb1bd7bcf"
+    },
+    {
+      "path": "机械臂大论文/src/ai/qwen25vl/serve.py",
+      "category": "source_qwen",
+      "required": true,
+      "bytes": 2878,
+      "sha256": "a72e848383d57f50e750828e132e294cf6c6d2ccc76b1a3af12c8e67642fe7f5",
+      "physical_lines": 81
+    },
+    {
+      "path": "机械臂大论文/src/ai/qwen25vl/smoke.py",
+      "category": "source_qwen",
+      "required": true,
+      "bytes": 1335,
+      "sha256": "4f766de118835dcd06a6d2dd6396878a4ca4ddd7d01b9daa8396fb558e7f2b01",
+      "physical_lines": 35
+    },
+    {
+      "path": "机械臂大论文/src/ai/xylab-setup.sh",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 336,
+      "sha256": "3f4d43afedc840d5bf37cbfb141c26c4085d8dc56c091aa88873f01241462742"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/README.md",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 5175,
+      "sha256": "eb4a170c304c9552867c057261169e5de30973f3c03b25b965a0a8ee6b3c96bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/api/__init__.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 89,
+      "sha256": "f440cdfb3985944448e4c8152236180331f67620a4673438cfff434d978fe18b",
+      "physical_lines": 1
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/api/routes_core.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 4158,
+      "sha256": "a920f9f271f383a7dc5a69623b364fddf332ff1653768640201ba7bcce77b4c0",
+      "physical_lines": 143
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/api/routes_intake.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 6469,
+      "sha256": "2b4382cda14dee0b0b36b4c8bba06752420e992f064f784f668caff396820b29",
+      "physical_lines": 199
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/api/routes_sources.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 8399,
+      "sha256": "997e6bf920a03534e97a41fb829b7f71bffbed7c493f27163f7181761e170937",
+      "physical_lines": 271
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/detector.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 582,
+      "sha256": "8c007f28a719d6edcf5d203d9106929245d9a1bbb62a55a00576b759d874dff8",
+      "physical_lines": 25
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/inference/__init__.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 73,
+      "sha256": "e977086f05052512de3489bd2d28652a7611e7246799936568404857f2dd77ac",
+      "physical_lines": 1
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/inference/detector.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 2868,
+      "sha256": "a10ce350e47eb0a2415f2571c8407f864cb939568446fcf982d8d52a253563ad",
+      "physical_lines": 99
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/__init__.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 62,
+      "sha256": "67ec5f4d6ccdad6f8106e46558003e23881ac74e275b90e259e1b1641312f900",
+      "physical_lines": 1
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/advisor.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 3251,
+      "sha256": "209c87a7479684c651e2641c92d3bf0903df122f07ef42f1f85fbc74a2337d65",
+      "physical_lines": 75
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/annotate.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 1537,
+      "sha256": "ef5cb27245371ff17c91d5aa619522c5a7e752861c62c7b0f6fda1e3a1f6abec",
+      "physical_lines": 46
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/grade_standard.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 2803,
+      "sha256": "dca4c99b0673b650ecc6b3cb83e74ff8556cfa73c56868380ba682be71cb54d8",
+      "physical_lines": 65
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/grader.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 4991,
+      "sha256": "713cb477d754056c13bfc3f651e2aece26ddbfc87fb04d54af7ed2be0160d359",
+      "physical_lines": 133
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/infrared.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 2273,
+      "sha256": "bba7353e5a2fe4ff00aa6c0bcc842b7957785198ffab2f49b1337f6f5eea83e4",
+      "physical_lines": 63
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/session.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 1713,
+      "sha256": "2dd6d13950216fdca4905f72c8f462efa87937e35d9f2f7002a190951bc72fb1",
+      "physical_lines": 52
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/intake/vision.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 1284,
+      "sha256": "f189141fa79c93a2e864bdb62f1c0fd1441a66c24a15dde7028bf0c3e628ecdb",
+      "physical_lines": 41
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/main.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 1081,
+      "sha256": "4eb35673894c4cbcf8326def633b9a34687da4420ee2659198237741c1a3e9e9",
+      "physical_lines": 39
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/planner.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 152,
+      "sha256": "1da7da9de9ef75b4bf0307f28da26a0ec89c80d859871c813e029f177504f9bd",
+      "physical_lines": 5
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/planning/__init__.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 77,
+      "sha256": "cf9a3ab1a63285c2b85620ac067cf82d4c9787dbc50de9b11b121121b7deee11",
+      "physical_lines": 1
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/planning/planner.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 2141,
+      "sha256": "ee9147ed7118ab2008db86ddcba49da8f8eba5fff2ed80a04dabda30990c752f",
+      "physical_lines": 66
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/planning/zone_filter.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 2168,
+      "sha256": "f7fa3cf469b00e308ff4251690fff4db4c00c1e6f361040c7e3624b0fc54e173",
+      "physical_lines": 72
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/requirements.txt",
+      "category": "environment_reference",
+      "required": true,
+      "bytes": 376,
+      "sha256": "5e06c624a10b3d54e12411cc01020371ceb35064e41fb8a7ae127d942b156388"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/sources/__init__.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 83,
+      "sha256": "c49edce47e4e62550a7ab1e7078e8b19b8dfe06cb12e7e888037144cce666a11",
+      "physical_lines": 1
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/sources/registry.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 7673,
+      "sha256": "07e071f983b8704d12e826568972795aa4c06f264a072327ad7a1b2ed967d2a3",
+      "physical_lines": 233
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/.gitignore",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 74,
+      "sha256": "ca5da2d4d977d7459a91fcd228a7c80360d5f5e233f62225ad73c58f14d99d55"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/21d50dea6bc541c79565b6dbd3a5f9b6.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/28377864c501440989d4744f9639ef07.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/349ef5a038c24322b4578a4ecf1e2809.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/36de597cc2824955a7df077dd8aa0eaf.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/3f8551a2154b47e58769c488ce3dd5b7.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/43a5ef400b1f47c7be089d30e11c30b1.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/49f9bd97645848f2a1a7e9afb477c173.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 82161,
+      "sha256": "85ca1bb65ef6fd838049d371daae5da107086307fd0c1336db3daed9e4b496f5"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/4b3253d171fc4cd3ab6d834da1febb43.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/4cddb2c82d45488db11f70743b5d8ab3.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 82161,
+      "sha256": "85ca1bb65ef6fd838049d371daae5da107086307fd0c1336db3daed9e4b496f5"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/624e990a6a864c78b88c7b41bfa68756.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/6683b73e02604542bcef21da9fdd9b52.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/6e38658aee514726b1ccf10d734be7f2.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/7176859744554e188fb3e10fb61267f3.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/86e50a14f2f449a4b7985a896f9337cd.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/91e8e6d33ab64af4a8c38063f978e639.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/9bc8b2e7ca10496baac579ce4e768a90.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/a26a78b5c3e1492fa59c438da98dff63.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/bc9bd89a4b8545dba4eadcb10e3ee8d8.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/c72f870fed6543c1a64ba5ceb2d50b0b.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/d37f2961a3b54762bb99ee61d3e5a4a9.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/e80e9ccf089d4724975a5748553431d7.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/ef62e378a6c7488eb586a044a527a686.png",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/fd17ed5de5f141a0a24ad5dd6dd0102c.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 3278725,
+      "sha256": "b7f7298e916b5adef4d7c8a4452de9a8a092601b959e7cd130266e10989197bd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/1160179efc30_N373d.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/376f6f8a7237_N71b5.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/39aee5ed0fcc_N7507.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/39aee5ed0fcc_Ne14c.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/4467f159577e_N3494.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/7327e6ae075e_Ne4da.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/7671721e299b_N8ad8.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/8fc3735062c1_Nbf23.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 157621,
+      "sha256": "c48c3773a902742358441e2eaa3f851f1f406f3d0341c15321bf2bcf2a403fad"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/a7406c466b6e_N1484.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/acc3ebbf4afc_N2856.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 157621,
+      "sha256": "c48c3773a902742358441e2eaa3f851f1f406f3d0341c15321bf2bcf2a403fad"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/bdf6982a3395_N8f24.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/df5b31af465a_N460e.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/uploads/intake/ee7ade6c0e17_N3cf4.jpg",
+      "category": "historical_upload",
+      "required": false,
+      "bytes": 158433,
+      "sha256": "a591b010bf3183996f11a3f8e21ced350c15756842ca9a1817751e13b283d1a6"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/backend/zone_filter.py",
+      "category": "source_backend",
+      "required": true,
+      "bytes": 200,
+      "sha256": "35d8e7b77882b5ffce500c651448d0d4663655573961105495a5416a9f053cd7",
+      "physical_lines": 5
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/index.html",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 906,
+      "sha256": "a8f9b698363dda4f51e0acdf1f41404729c90ca54d20df45d9fd6c6b4579110f"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/package-lock.json",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 63639,
+      "sha256": "368ae4f0c71ba381c6fed58e2d66f3fd00fe7bd0e2f226a973d34fc770baebdd"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/package.json",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 654,
+      "sha256": "79a6d9ebb0b67c98485227c3d21faaaf0bcc7f38fc1e05a6f45c7a1a0ba4f959"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/public/samples/beech-board.jpg",
+      "category": "frontend_sample_asset",
+      "required": true,
+      "bytes": 151251,
+      "sha256": "2db3efe9e251e3020ed69867b221b454db280739e38e7c3f4f3c58d554e6a7e8"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/App.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 1463,
+      "sha256": "3f99a62f5e66455e0bb9f14b6312bfe95f5155d728d3733865b2639efdd16c89",
+      "physical_lines": 35
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/api/client.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 13484,
+      "sha256": "1b2524f83f2aae8e8afd716fd0df15eee7aaccadfaa258f856418064083dbbd6",
+      "physical_lines": 452
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/api/intake.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 5754,
+      "sha256": "f2408b8a9084ac5ad3f33bea08540be5bb0e28270053193381a5a2ca090ab2a0",
+      "physical_lines": 189
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/BoardCanvas.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 7394,
+      "sha256": "1deee1ee2417601dd15348ea5535fea409d02c41786e29cd74d85a9ce0f09245",
+      "physical_lines": 250
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/Field.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 742,
+      "sha256": "af521839b882a12a28e0a6b848316cacfb9cc1e094e5863c43ad8cff41cdcb09",
+      "physical_lines": 32
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/Layout.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 1255,
+      "sha256": "fe4f4864eeb1d10943c431224527153a2b186f8d4475d9ae5bcb89aaede11210",
+      "physical_lines": 38
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/LongBoardStrip.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4106,
+      "sha256": "14a3186060fa3021fbaafb31f3576d36a4c64dbd5709803b2616fb69b5cbb8d6",
+      "physical_lines": 107
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/Panel.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 519,
+      "sha256": "b90d94f484a04091d77b8c92fe9091472f61d99c1ec4cf1c93540f6fd39a65e9",
+      "physical_lines": 23
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/PipelineBar.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 605,
+      "sha256": "5801c569e46e5220fa44de73dc40095c10a189ddb36cf2a5e67265adcb44d219",
+      "physical_lines": 20
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/Sidebar.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2132,
+      "sha256": "df1f673d2b1ae2d1d2622ff2751fdebba71aa044364abe4655479e832bf9b3df",
+      "physical_lines": 71
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/components/ZoneEditor.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 12375,
+      "sha256": "4c52e07c7e40b6181468b7a32f618a7c3892e8ff22b74619b4b357e3300ea39c",
+      "physical_lines": 352
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/costmap.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2921,
+      "sha256": "b6c27453d33eaf6eddd8b2f980ce1dc663a423c2cd99ee8518a560c0c0f28eff",
+      "physical_lines": 84
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/decision.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 8108,
+      "sha256": "2ab9edc7ab78a98a5758e3032014b0d957a76b2fe6954027350b07d01293b369",
+      "physical_lines": 235
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/ec5.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2512,
+      "sha256": "485d484f53d976f11774677510bc57b15cf44393e725df191afa2910c2a175fe",
+      "physical_lines": 90
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/geometry.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 5958,
+      "sha256": "d64b7ca8a89cce0fe8713063e4ee2f2e913b595a17bbdfc25f7fa95576ca2bf9",
+      "physical_lines": 178
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/grid.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4381,
+      "sha256": "ff53436f145eedb87d2c2cc2952735337fa0cfd268fa453a3796bb79c54159fd",
+      "physical_lines": 127
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/kdtree.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2312,
+      "sha256": "65b802ab0fdb2fda9fa9323d73e6fe093078ed30e28a1fd69ed4f36ea13bff9c",
+      "physical_lines": 71
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/morphology.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2160,
+      "sha256": "d36cd6d0e9de220553eedc8663854df3e92544d46701a8fd185517aa247c8f51",
+      "physical_lines": 56
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/pipeline.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 8492,
+      "sha256": "d1fb2c2fc73ceb99a6aef009f8405908e9dd0ee900142fad2543e6c252cfb489",
+      "physical_lines": 258
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/render.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 11080,
+      "sha256": "d5f4c451a9e6475dfc0e8ac7bcf103571cd13fceb83f55593658399954014c04",
+      "physical_lines": 369
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/lib/types.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4240,
+      "sha256": "6ec61e7ee72b3e6d3f3312a601f1557615032b17797290cdc2edd8feaf938dc5",
+      "physical_lines": 171
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/main.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 254,
+      "sha256": "4de29b1a1b4e60e0ab61891df563dc621e1b33d940535f33050659b0787c782b",
+      "physical_lines": 10
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/mock/boards.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2028,
+      "sha256": "ce29ec39fc656e25ab983a5b44871cc453ff2071bb5994e218dbc886ea493e1c",
+      "physical_lines": 72
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/mock/defects.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 2984,
+      "sha256": "8df46f92500347f3e85fe94a43c1eb5c5dc1e8aa2af564d7bb82e9547ea1bf53",
+      "physical_lines": 79
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/mock/rules.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4440,
+      "sha256": "260b66929cc18097a2bb22636a61beb7f664851e445049705528e3ddaee14505",
+      "physical_lines": 108
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/AgentConsole.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4724,
+      "sha256": "999db4ff04741d12100d0b86be3e867eb6406aebceb0d03df25be9f3680d3f5a",
+      "physical_lines": 120
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/Calibration.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 5619,
+      "sha256": "628c7e0b1b2d41cc352ae73c03f18489b947d0936909b1cde4f9f66ad86748dd",
+      "physical_lines": 132
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/Dashboard.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 5864,
+      "sha256": "0dc744f62842be28a0d6a28bbc004fac266ac72ce78d21420585974159adb0ed",
+      "physical_lines": 152
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/DecisionMatrix.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 5937,
+      "sha256": "700ee16f1cc11cde907052e4a8c4c69574d1439cce4011a5cfcb53e4bec5490c",
+      "physical_lines": 133
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/DigitalTwin.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 8524,
+      "sha256": "ba892528359056d91467e59be78ec0ea4a69c12b80f8cb56f59e26a21ea5c5c4",
+      "physical_lines": 228
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/Intake.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 12256,
+      "sha256": "32343cc1185e1e95fe555768585b3628796aedbb8b0cbfdbfc8d04a4472d3ec5",
+      "physical_lines": 272
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/LogsReports.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4334,
+      "sha256": "e786fc4c227a1aa75a27049387cf721fc3435517e98c778d4a5c1bbba93122de",
+      "physical_lines": 101
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/Perception.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 7145,
+      "sha256": "99b9810d4c054895f77dc333bbbd3001911c008462bde320fd7678ab39f3033c",
+      "physical_lines": 202
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/Planning.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 24191,
+      "sha256": "b61218296a2ef7d88988f7582b7c6ea2dac080740cb85857dd0aa16196873d10",
+      "physical_lines": 616
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/RobotControl.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 6301,
+      "sha256": "955b72aebc8fcf400b7abafdfd7ca49d14d65c33acda2cde249b5ca8ed7ad2c6",
+      "physical_lines": 155
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/pages/RuleBase.tsx",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 4879,
+      "sha256": "711b0b9ae297d801d1e125bdcdeb7cc67392cd09d759f8da0b70d9c6a8aa3f02",
+      "physical_lines": 115
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/store/useSystemStore.ts",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 7309,
+      "sha256": "a980a2fc8b25a573a134e1ee1bbf637cea00af6be3f32dcf565d576dcbc83686",
+      "physical_lines": 269
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/src/styles/global.css",
+      "category": "source_frontend",
+      "required": true,
+      "bytes": 18429,
+      "sha256": "abf1782cab37599b3b24989b9830939daf4af9e6f4989f2e89684be7e91a86de",
+      "physical_lines": 1009
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/tsconfig.json",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 618,
+      "sha256": "8df45a1b5dc24865c9ed8e0a6ce370fc8e928bf5bcb10838b55490e24a4effea"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/tsconfig.node.json",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 244,
+      "sha256": "e2926034a7ed41a1431e4b8e60e58371af014a8856a3fcc583d3efa85440b996"
+    },
+    {
+      "path": "机械臂大论文/src/xylab/frontend/vite.config.ts",
+      "category": "frontend_configuration",
+      "required": true,
+      "bytes": 535,
+      "sha256": "c5533c33e27334e8ecb4ecd2c41f3c03b818635100c8c20327a9748a6294f782"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/data.yaml",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 537,
+      "sha256": "0474c5be001a3ae9d7f163570b83f38d83e6a0deac91c0a3e458b72431394eb3"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/environment_requirements.md",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 7900,
+      "sha256": "eea33b80ecae1794f9ced9569cef18e7d17b3ac7a4fc34189036f26eabb2e80f"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/requirements.txt",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 399,
+      "sha256": "2aece60c8fe990b8f8fed85b32e97282574dead3199df0a38a74bcb0ad15deb9"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/runs/train/wood_defect_v11/args.yaml",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 1695,
+      "sha256": "fd83859bdcc4bdcdb7ecc61f38528581344e17f408225cbec0e9e20eaf3170e7"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/runs/train/wood_defect_v11/results.csv",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 2202,
+      "sha256": "4a8b9a36132ff0a44e108019986c559052fdebe4231b22330a726fc858e0ac5d"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/runs/train/wood_defect_v11/weights/best.pt",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 16040532,
+      "sha256": "8cf3808af9bfd9018ae8703e04f014fedb997645765c1e21681b5db59335a3c1"
+    },
+    {
+      "path": "机械臂大论文/yolov11预训练模型/train.py",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 7137,
+      "sha256": "66ec589c7305d898d6b7745c5f85007818dd6a0248ec6d27701818e264dbe59a"
+    },
+    {
+      "path": "机械臂大论文/yolov8权重模型结果(yolov8n_100轮_map0.699)/yolov8权重模型结果(yolov8n_100轮_map0.699)/train/args.yaml",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 1545,
+      "sha256": "6e6ba0a402260a374b168fb48e019d1ae44606d485093375c5782914800cc3e1"
+    },
+    {
+      "path": "机械臂大论文/yolov8权重模型结果(yolov8n_100轮_map0.699)/yolov8权重模型结果(yolov8n_100轮_map0.699)/train/results.csv",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 33936,
+      "sha256": "76c63f835f3b5ddc3de1fc5986ad8a1c8adf29a4123cea2a4ec4a829d95a992f"
+    },
+    {
+      "path": "机械臂大论文/yolov8权重模型结果(yolov8n_100轮_map0.699)/yolov8权重模型结果(yolov8n_100轮_map0.699)/train/weights/bilibest.pt",
+      "category": "training_evidence",
+      "required": false,
+      "bytes": 6235467,
+      "sha256": "09ca6f9de0d5c05d426dd3713bed202389ae62b1fbfdf932a3ed0317fb3ebb78"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/contact.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 1742040,
+      "sha256": "6841197e1d036ae4c80cf358f0ea96b2f4e6eb6f32e305f065cb6fc843a2089e"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/contact_08.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 1721521,
+      "sha256": "0fd728b76d245f05360e0ab3a5853b02ed34c1742eb2aad07e9f100769211e21"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/contact_09.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 1720747,
+      "sha256": "801f774880efd993b9b1ed88122df45993ed3e8be110c64f74736db17626a544"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/edit_softreg.py",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 19762,
+      "sha256": "76d2a659783620232951582d9197f9394c510e249a8f22ee2752a240dea34ffe"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_01.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 213789,
+      "sha256": "4cabe04ff8288fd0abc2437e9c96c3c8a7adaf70a70db2e29dc0f90474a8aace"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_02.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 272088,
+      "sha256": "12a98958f9c918499a84a8adcbba46740725dc6df1324ad6c5d6e364773b6db6"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_03.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 483335,
+      "sha256": "1705558d5581545243b2965d2434219a4d6e344f8821fd927f92553f32e6f578"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_04.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 342420,
+      "sha256": "5379aa408f585119df7da22b968a1812f095d3f5f5d92932a5da13a3db9b4945"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_05.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 300406,
+      "sha256": "cafecb76b4caad3727e6bbd50b2f246f133318e1533ed61f56472028327d7745"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_06.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 420393,
+      "sha256": "a3248ce3e6bc2ad1d0a3cd3192edee12c4af6d947f23d90bedcbf2e968f90aaf"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_07.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 464595,
+      "sha256": "3eb405aefdde4d8a75f1b3ba42f68f99953b4d3c9e32cc4fa1f45f89935c5d3c"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_08.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 275247,
+      "sha256": "7fab1fd733c0ab0e426733e66a11f31d3c0178726f0fe589181512d5025326a7"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_09.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 420986,
+      "sha256": "e9bbf31d5db173b7f96ff3a68b262f46ea3101a9c95baaf9057c3698c88d554d"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_10.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 394696,
+      "sha256": "c142dbd268194cf585605c631e1e33528ce8aaceda4239db07912c08beccaed2"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages/page_11.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 290926,
+      "sha256": "371cbeccbfb5c9fd35fed794046f4e6bcba5ef35af596cb263c51b33265b170e"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_01.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 213789,
+      "sha256": "4cabe04ff8288fd0abc2437e9c96c3c8a7adaf70a70db2e29dc0f90474a8aace"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_02.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 272088,
+      "sha256": "12a98958f9c918499a84a8adcbba46740725dc6df1324ad6c5d6e364773b6db6"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_03.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 483335,
+      "sha256": "1705558d5581545243b2965d2434219a4d6e344f8821fd927f92553f32e6f578"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_04.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 342420,
+      "sha256": "5379aa408f585119df7da22b968a1812f095d3f5f5d92932a5da13a3db9b4945"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_05.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 313136,
+      "sha256": "15a01e65074bf14d24ed20ddecd2b16c47a38798109b2988751fa5d76feac754"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_06.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 451108,
+      "sha256": "169e11090aae66b67a4fb1d86d58b96b7f6cbebda1366796e71b029eb728e976"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_07.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 464595,
+      "sha256": "3eb405aefdde4d8a75f1b3ba42f68f99953b4d3c9e32cc4fa1f45f89935c5d3c"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_08.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 275247,
+      "sha256": "7fab1fd733c0ab0e426733e66a11f31d3c0178726f0fe589181512d5025326a7"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_09.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 422232,
+      "sha256": "1db07b97017de1fd3579217e6d36e69f963debd314a79ffa2e5c5b167498444b"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_10.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 394696,
+      "sha256": "c142dbd268194cf585605c631e1e33528ce8aaceda4239db07912c08beccaed2"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_08/page_11.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 303917,
+      "sha256": "22d6dcbbac26191647e2eedd5670c62acc725223a10e14940128705444051e30"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_01.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 213789,
+      "sha256": "4cabe04ff8288fd0abc2437e9c96c3c8a7adaf70a70db2e29dc0f90474a8aace"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_02.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 272088,
+      "sha256": "12a98958f9c918499a84a8adcbba46740725dc6df1324ad6c5d6e364773b6db6"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_03.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 483335,
+      "sha256": "1705558d5581545243b2965d2434219a4d6e344f8821fd927f92553f32e6f578"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_04.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 342420,
+      "sha256": "5379aa408f585119df7da22b968a1812f095d3f5f5d92932a5da13a3db9b4945"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_05.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 309176,
+      "sha256": "7ccaa30d401ae109085d89abe5dd46be905f2fbd36073a319893ff86bb30225c"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_06.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 451108,
+      "sha256": "169e11090aae66b67a4fb1d86d58b96b7f6cbebda1366796e71b029eb728e976"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_07.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 465475,
+      "sha256": "139d6339bcf4580cf8b2a3673aa6ca0b6889f00f26a2857bee5eef027e80b0de"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_08.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 275314,
+      "sha256": "056aaba323e87d1ac7dd94f44d89c238c23bae6e7cf5fcdea7f513040f60cf82"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_09.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 422232,
+      "sha256": "1db07b97017de1fd3579217e6d36e69f963debd314a79ffa2e5c5b167498444b"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_10.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 394696,
+      "sha256": "c142dbd268194cf585605c631e1e33528ce8aaceda4239db07912c08beccaed2"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/pages_09/page_11.png",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 303917,
+      "sha256": "22d6dcbbac26191647e2eedd5670c62acc725223a10e14940128705444051e30"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/render_pdf.py",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 874,
+      "sha256": "29c6fd142b7991c03726a49faff3c0d747b7b59965ad4e2787e37333f0431d92"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/rendered.pdf",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 435161,
+      "sha256": "2f7eb3b7ba765ba23c47fe1d9880985548fcd1d760a9a5331df347b8de807260"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/rendered_08.pdf",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 429536,
+      "sha256": "8e09984e971020b269ac92acb44ee76f53801b781b83b61ddba030795fb94d8c"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/rendered_09.pdf",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 429457,
+      "sha256": "202cb33718b984fb9e6f9302b2a7d6df91975f65360430dc0a5ba91c42cde376"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/中间版_07.docx",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 50915,
+      "sha256": "41c1a1bf090ee2270216299b9db54a8d90f2cf6bef822cc619abbd86b6d9b4e7"
+    },
+    {
+      "path": "软著申请/_qa_代码核对_20261025/中间版_08.docx",
+      "category": "historical_qa",
+      "required": false,
+      "bytes": 50958,
+      "sha256": "e2a64bfc184d66ae4f3db3db4f9ba8e3656ed8aea0bd8fbb57c5d092ca47502a"
+    },
+    {
+      "path": "软著申请/generate_copyright_docx.py",
+      "category": "application_document",
+      "required": true,
+      "bytes": 12467,
+      "sha256": "c1317e686f99e730a8d056dd214c84c84ed33f9286de9bef2a24a91716436368"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_代码核对修订版_20261025_09.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 50940,
+      "sha256": "b2a3784721678409f4811c53c1aff22a767b6c5db3faec3c35661873467c4b1f"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_01.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 48563,
+      "sha256": "8e4f562ded158ae7d56cac0a12d244be9e4e18a02f1c16118bd4ccb6dc897a5c"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_02.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 48713,
+      "sha256": "4a9724e44c5098b45b56df552716caf7439df4da9264a048c0ec31a451464ac3"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_03.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 48703,
+      "sha256": "f25abcc1fd48cc99c70b1cd311e976a974287fa7ec358579eecbc4422196d735"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_04.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 49030,
+      "sha256": "d0d14dfaac080a0dcc1406f40e549237b92fa811101b2979ac4be467aa2bdf28"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_05.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 49027,
+      "sha256": "6d4cafea6b5aba94657211579dc529580b5beb505329af4c074dd0b6696b93e5"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统V1.0_软件著作权登记申请材料_修订版_20260817_06.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 49038,
+      "sha256": "822e2f4214d44d4d9c85b74ce2c66b1798a0e2d64939f1b445923e5b0b7531cf"
+    },
+    {
+      "path": "软著申请/预制木构件智能缺陷检测与钉合位置优化系统_软件著作权登记申请书.docx",
+      "category": "application_document",
+      "required": true,
+      "bytes": 40859,
+      "sha256": "9fb4c0538b739e1c7b8ae5a2d124c1a3688edf7cae1b6f5360e536755e0fcd3f"
+    },
+    {
+      "path": "软著申请/预制木构件智能钉合系统_软件著作权登记申请书.md",
+      "category": "application_document",
+      "required": true,
+      "bytes": 14227,
+      "sha256": "e3c624fac549a90ecdf304f9aa883fef1623cbb07ecfb7cdfd1f12c4b5f3ab18"
+    }
+  ]
+}

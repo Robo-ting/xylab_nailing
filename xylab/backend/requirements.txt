@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-multipart==0.0.12
+pillow==10.4.0
+numpy>=1.26
+# 以下为接入真实算法时所需（当前桩实现未强制依赖）
+# ultralytics>=8.2.0     # YOLOv8-seg 缺陷检测
+opencv-python>=4.10
+# scipy>=1.13            # KD-tree
+# chromadb>=0.5          # 向量库 (RAG)
+# sentence-transformers  # bge-m3 嵌入
